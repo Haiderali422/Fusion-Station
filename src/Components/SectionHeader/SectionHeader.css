@@ -1,0 +1,20 @@
+.section-header{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+.first{
+    font-family: RaceSport, sans-serif;
+    font-weight: normal;
+    font-size: 56px;
+    color: white;
+}
+.second{
+    font-family: RaceSport, sans-serif;
+    font-weight: normal;
+    font-size: 56px;
+    color: var(--button-color);
+}
+.heading-text {
+    color: #FFFFFF;
+}

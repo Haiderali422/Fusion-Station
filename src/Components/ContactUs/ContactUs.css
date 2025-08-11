@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-section {
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+}
+
+.contact-container {
+    width: 100%;
+    height: 922px;
+    position: relative;
+}
+
+.contact-left {
+    background-image: url("../../assets/image (2).png") , url("../../assets/Rectangle 170.png") ;
+    background-blend-mode:  multiply;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.contact-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-left .overlay {
+    position: absolute;
+    inset: 0;
+}
+
+.contact-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    padding: 80px 56px;
+    box-sizing: border-box;
+}
+
+.contact-header h2 {
+    font-size: 56px;
+    font-weight: 400;
+    font-family: 'RaceSport', sans-serif;
+    color: #000;
+    line-height: 65px;
+    margin: 0;
+}
+
+.gradient-text {
+    background-color: var(--button-color);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.contact-header p {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin-top: 4px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-top: 60px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 12px;
+    padding: 20px 22px;
+    background: #fff;
+}
+
+.form-group input,
+.form-group textarea {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    resize: none;
+}
+
+.form-group ::placeholder {
+    color: #000;
+    opacity: 0.7;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.form-actions button {
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form-actions button:hover {
+    opacity: 0.9;
+}
+
+.floating-image {
+    left: 1px;
+    top: 65px;
+    width: 800px;
+    height: 685px;
+    transform: rotate(7deg);
+    z-index: 10;
+}
+
+.floating-image img {
+    width: 100%;
+    max-width: 936px;
+    height: 766px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .contact-left, .contact-right {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .contact-container {
+        height: auto;
+    }
+    .floating-image {
+        position: relative;
+        width: 100%;
+        height: auto;
+        top: 0;
+    }
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 500;
+}

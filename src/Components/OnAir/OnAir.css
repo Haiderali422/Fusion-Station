@@ -1,0 +1,92 @@
+.on-air-section {
+    color: white;
+    padding: 40px 20px;
+}
+
+.on-air-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.bg-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+.play-button {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease;
+}
+
+.play-button img {
+    width: 100%;
+    height: auto;
+}
+
+.upcoming-container {
+    position: relative;
+
+}
+
+.up-image{
+    position: relative;
+    top: 0;
+    left: -110px;
+}
+.shows{
+    position: absolute;
+    top: -26px;
+    left: 0;
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform:  uppercase;
+    z-index: 10;
+}
+
+
+@media (min-width: 768px) {
+    .on-air-section {
+        padding: 60px 40px;
+    }
+
+    .play-button {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .on-air-section {
+        padding: 80px 60px;
+    }
+
+    .play-button {
+        width: 100px;
+        height: 100px;
+    }
+}

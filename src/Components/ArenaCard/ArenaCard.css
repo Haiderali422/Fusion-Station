@@ -1,0 +1,60 @@
+.arena-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #E62829;
+    position: relative;
+    padding : 20px 30px;
+    margin : auto;
+    height: 170px;
+
+}
+
+.arena-card.active {
+    background-color: #2C2C2C;
+}
+
+.arrow {
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-right: 12px solid red;
+}
+
+.card-left h3 {
+    font-family: RaceSport, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    white-space: normal;
+    overflow-wrap: break-word;
+    width: 65%;
+}
+
+.card-left p {
+    font-size: 14px;
+    margin-top: 8px;
+    width: 65%;
+}
+
+.card-right {
+    position: absolute;
+    top: 30%;
+    right: 15px;
+    font-family: Montserrat, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    opacity: 100%;
+    color: #F87879;
+}
+
+.arena-card.active .card-right {
+    color: #8E8E8E;
+}
+
+

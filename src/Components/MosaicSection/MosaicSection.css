@@ -1,0 +1,13 @@
+.mosaic-section {
+    padding: 80px 40px;
+    color: white;
+    text-align: center;
+}
+.mosaicCard {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}

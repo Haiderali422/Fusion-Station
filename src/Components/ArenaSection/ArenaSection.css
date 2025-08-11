@@ -1,0 +1,104 @@
+.arena-section {
+    padding: 3.75vw;
+    color: white;
+    margin-top: 9.375vw;
+}
+
+.arena-content {
+    text-align: center;
+    margin-bottom: 3.125vw;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.arena-body {
+    display: flex;
+    gap: 0.156vw;
+    justify-content: center;
+    border-radius: 0.938vw;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: white;
+    max-width: 1200px;
+    width: 90vw;
+    height: 50vw;
+    max-height: 600px;
+    border: 1px solid #FFFFFF;
+
+}
+.video-container {
+    flex: 2;
+    position: relative;
+    aspect-ratio: 16/9;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.cards-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.156vw;
+}
+
+.arena-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 0.313vw;
+    color: #fff;
+    background-color: #E62829;
+    position: relative;
+    padding: 1.563vw 1.875vw;
+    height: 25%;
+    flex-grow: 1;
+}
+
+.arena-card.active {
+    background-color: #2C2C2C;
+}
+
+.arrow {
+    position: absolute;
+    left: -0.938vw;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 0.938vw solid transparent;
+    border-bottom: 0.938vw solid transparent;
+    border-right: 0.938vw solid red;
+}
+
+.card-left h3 {
+    font-family: RaceSport, sans-serif;
+    font-size: 1.563vw;
+    font-weight: 700;
+    white-space: normal;
+    overflow-wrap: break-word;
+    width: 10%;
+}
+
+.card-left p {
+    font-size: 1.094vw;
+    margin-top: 0.625vw;
+}
+
+.arena-card.active .card-right {
+    color: #8E8E8E;
+}
+
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+

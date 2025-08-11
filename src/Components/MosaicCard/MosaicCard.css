@@ -1,0 +1,52 @@
+.mosaic-card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    text-align: left;
+    color: white;
+}
+
+.mosaic-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.mosaic-card h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #E62829; /* Red title */
+}
+
+.mosaic-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: white;
+}
+
+
+
+@media (min-width: 600px) {
+    .mosaic-card {
+        max-width: 350px;
+    }
+}
+
+
+@media (min-width: 900px) {
+    .mosaic-card {
+        max-width: 300px;
+    }
+
+    .mosaic-card h4 {
+        font-size: 18px;
+    }
+
+    .mosaic-card p {
+        font-size: 14px;
+    }
+}
+
