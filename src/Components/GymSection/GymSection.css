@@ -1,31 +1,3 @@
-/*.gym-section{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    width:  50%;*/
-/*}*/
-/*.gym-header{*/
-/*    text-align: center;*/
-/*}*/
-
-/*.gym-content{*/
-/*    position: relative;*/
-/*    background-image: url("../../assets/image 159.png");*/
-
-/*}*/
-/*.gym-layer{*/
-/*    overflow: hidden;*/
-/*    opacity: 1;*/
-/*}*/
-/*.coming{*/
-/*    position: absolute;*/
-/*    top: 10px;*/
-/*    left: 10px;*/
-/*    width: 30%;*/
-/*    height: 20%;*/
-/*}*/
-
-
 .gym-section {
     display: flex;
     flex-direction: column;
