@@ -32,6 +32,10 @@ nav ul li {
     cursor: pointer;
     position: relative;
 }
+nav ul li a {
+    text-decoration : none ;
+    color : white ;
+}
 
 nav ul li:hover {
     color: red;
